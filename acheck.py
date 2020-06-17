@@ -11,7 +11,7 @@ from pywinauto.application import Application
 warnings.filterwarnings("ignore")
 
 def main():
-    for x in glob.glob('*.pdf'):
+    for x in glob.glob('pdfs/*.pdf'):
         time.sleep(10)
         app = Application().start('%s %s' % ("C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe",str(x)))
         time.sleep(5)
