@@ -8,3 +8,9 @@ accessibility_check.py
 .ipynb_checkpoints/readability_check-checkpoint.py
 *.html
 *.ipynb
+.ipynb_checkpoints/access_report_results-checkpoint.csv
+.ipynb_checkpoints/readability_results-checkpoint.csv
+.ipynb_checkpoints/uscb_pull-checkpoint.py
+data/.ipynb_checkpoints/county_codes-checkpoint.csv
+data/.ipynb_checkpoints/state_codes-checkpoint.csv
+*.xml
