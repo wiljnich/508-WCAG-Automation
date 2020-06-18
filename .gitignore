@@ -7,3 +7,4 @@ accessibility_check.py
 .ipynb_checkpoints/README-checkpoint.md
 .ipynb_checkpoints/readability_check-checkpoint.py
 *.html
+*.ipynb
