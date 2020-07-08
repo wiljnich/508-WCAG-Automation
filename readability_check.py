@@ -12,13 +12,19 @@ def main():
     df = pd.DataFrame(columns=['Utility','FK Score', 'FK Grade Level'])
     
     for x in glob.glob('pdfs/*.pdf'):
-        text = parser.from_file(x)
-        df = df.append({'Utility' : str(x).split('\\')[1].split('.')[0],
-                   'FK Score': textstat.flesch_reading_ease(text['content']),
-                   'FK Grade Level': textstat.flesch_kincaid_grade(text['content'])
-                  }, ignore_index=True)
+        try:
+            text = parser.from_file(x)
+            df = df.append({'Utility' : str(x).split('\\')[1].split('.')[0],
+                       'FK Score': textstat.flesch_reading_ease(text['content']),
+                       'FK Grade Level': textstat.flesch_kincaid_grade(text['content'])
+                      }, ignore_index=True)
+        except:
+             df = df.append({'Utility' : str(x).split('\\')[1].split('.')[0],
+                       'FK Score': 'N/A',
+                       'FK Grade Level': 'N/A'
+                      }, ignore_index=True)
 
-    df.to_csv('readability_results.csv', encoding='utf-8')
+    df.to_csv('data/results/readability_results.csv', encoding='utf-8')
     
 if __name__ == "__main__":
     main()
