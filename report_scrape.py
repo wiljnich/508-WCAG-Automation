@@ -5,7 +5,7 @@ import glob
 def main():
     df = pd.DataFrame(columns=['Utility','Pages','Total Tests','Failed','Warning','Passed','User Verify','Not Applicable'])
     
-    for x in glob.glob('pdfs/*.html'):
+    for x in glob.glob('pdfs/finished/*.html'):
         file = open(str(x), encoding="utf16")     
         soup = bs(file, features="lxml")
         file.close()
