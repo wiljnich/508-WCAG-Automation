@@ -22,7 +22,7 @@ def main():
                         'Not Applicable': soup.find(attrs={'class':"p", 'id':"RPT_NUM_NA_LBL"}).text.split(': ')[1]
                         }, ignore_index=True)
 
-    df.to_csv('access_report_results.csv', encoding='utf-8')
+    df.to_csv('access_res_2.csv', encoding='utf-8')
     
 if __name__ == "__main__":
     main()

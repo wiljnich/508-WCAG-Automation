@@ -14,3 +14,10 @@ accessibility_check.py
 data/.ipynb_checkpoints/county_codes-checkpoint.csv
 data/.ipynb_checkpoints/state_codes-checkpoint.csv
 *.xml
+.ipynb_checkpoints/access2-checkpoint.py
+.ipynb_checkpoints/access_res_2-checkpoint.csv
+.ipynb_checkpoints/autotag-checkpoint.py
+data/.ipynb_checkpoints/autotag-checkpoint.csv
+data/.ipynb_checkpoints/cws_list-checkpoint.csv
+data/prework/.ipynb_checkpoints/duplicates-checkpoint.csv
+pdfs/finished/.ipynb_checkpoints/AK2224646-checkpoint.pdf
