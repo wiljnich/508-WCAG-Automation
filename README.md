@@ -1,2 +1,2 @@
 # 508 WCAG Automation
- Python-driven RPA for 508/WCAG2.0 analysis
+ This repository contains scripts for a Python-driven RPA to faciliate an accessibility analysis of water utility Consumer Confidence Reports against Section 508/WCAG2.0 guidelines, as well as to process results and enrish them for publication. This analysis is the subject of a forthcoming article with Sri Vedachalam of the Environmental Policy Innovation Center: "Are Consumer Confidence Reports for Everyone? Measuring Accessibility and Building Trust"
