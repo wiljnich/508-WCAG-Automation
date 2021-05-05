@@ -25,7 +25,7 @@ def main():
             time.sleep(10)
             pywinauto.mouse.click(button='left', coords=(1857, 161))
             time.sleep(5)
-            if pyautogui.locateOnScreen(r'C:\Users\William Nicholas\Documents\GitHub\508-WCAG-Automation\pdfs\error\error.png'):
+            if pyautogui.locateOnScreen(r'\508-WCAG-Automation\pdfs\error\error.png'):
                 pywinauto.mouse.click(button='left', coords=(1151, 619))
                 time.sleep(1)
                 pywinauto.mouse.click(button='left', coords=(1888, 15))
