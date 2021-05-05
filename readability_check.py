@@ -5,7 +5,7 @@ from tika import parser
 import pandas as pd
 import glob
 
-os.environ['TIKA_SERVER_JAR'] = 'C:\\Users\\William Nicholas\\Documents\\Temp\\tika-server-1.24.1.jar'
+os.environ['TIKA_SERVER_JAR'] = '\tika-server-1.24.1.jar'
 tika.TikaClientOnly = True
 
 def main():
